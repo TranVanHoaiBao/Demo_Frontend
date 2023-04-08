@@ -1,0 +1,98 @@
+.header-section {
+    min-width: 100%;
+    height: 104px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    z-index: 99;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,255,255,0.1);
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.inner-header {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-header .logo {
+    float: left;
+}
+
+.inner-header .logo a img {
+    width: 133px;
+    height: 42px;
+}
+
+.inner-header .main-menu {
+    float: right;
+    margin-right:130px ;
+    
+}
+
+.inner-header .main-menu ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.inner-header .main-menu ul li {
+    display: inline-block;
+    margin-left: 60px;
+    position: relative;
+    list-style: none;
+
+}
+
+.inner-header .user-access {
+    float: right;
+    margin-right: 100px;
+}
+
+.inner-header .user-access a {
+    color: #1e1e1e;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+    position: relative;
+    line-height: 42px;
+}
+
+.inner-header .user-access a.in {
+    color: #838383;
+    margin-left: 15px;
+    position: relative;
+}
+
+.inner-header .user-access a.in::before {
+    position: absolute;
+    left: -13px;
+    top: 1px;
+    color: #1e1e1e;
+    content: "/";
+}
+
+.inner-header .header-right {
+    float: right;
+    line-height: 30px;
+}
+
+.inner-header .header-right img {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
